@@ -7,7 +7,7 @@ import requests
 import boto3
 
 
-bp = Blueprint('bff', __name__, url_prefix='/bff')
+bp = Blueprint('bff', __name__, url_prefix='/')
 
 baseUrl = "https://api.salesync.site"
 

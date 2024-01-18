@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import requests
 
 
-bp = Blueprint('bff', __name__, url_prefix='/bff')
+bp = Blueprint('bff', __name__, url_prefix='/')
 
 baseUrl = "https://api.salesync.site"
 
